@@ -1,15 +1,145 @@
-.nav-logo {
-    max-height: 50px;
-    border-radius: 5px;
+body {
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+	color: #fff;
+	background: #aaa774 url('https://flolon.cc/assets/images/banner.jpg') no-repeat;
+	background-size: cover;
 }
 
-.text-shadow {
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+.button {
+	color: #222!important;
+	background-color: #fff;
+	padding: 6px 12px;
+	text-decoration: none;
+	font-weight: 500;
+	border-radius: 4px;
+	transition: .1s ease-in-out;
 }
 
-.buttonInfo {
-    display: block;
-    font-size: .75rem;
-    color: rgba(255, 255, 255, .35);
-    margin-top: .75rem;
+.button:hover {
+	background-color: #eaeaea!important;
+}
+
+.button:active {
+	background-color: #ccc!important;
+}
+
+.nav {
+	display: block;
+	margin-top: .5rem;
+}
+
+.nav .item {
+	padding: 10px 13px;
+	background-color: #222;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.main-card {
+	background-color: #222;
+	margin: 1.5rem auto 1.8rem auto;
+	max-width: 1080px;
+/* 	padding: 2rem; */
+	box-sizing: inherit;
+	border-radius: 8px;
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.main-card a {
+	color: inherit;
+}
+
+.main-card .card-top {
+	padding: 2rem 2rem 0 2rem;
+}
+
+.main-card .pfp {
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+.main-card .rightToPfp {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 1rem;
+}
+
+.main-card .links {
+	margin-top: .5rem;
+}
+
+.main-card .links a {
+	padding: 1px 2px;
+	margin-right: 5px;
+	color: rgba(255, 255, 255, 0.75);
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 500;
+	transition: .1s ease-in-out;
+}
+
+.main-card .links a:hover {
+	color: rgba(255, 255, 255, 0.86);
+}
+
+.main-card .title {
+	display: inline-block;
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin: .5rem 0 0 0;
+}
+
+.main-card .stuff {
+	padding: 0 2rem;
+	margin: 1.5rem 0 4rem 0;
+	min-height: 35vh;
+}
+
+@media only screen and (max-width: 600px) {
+	.main-card .card-top {
+		text-align: center;
+	}
+	.main-card .pfp {
+		display: block;
+		margin: auto;
+	}
+	.main-card .stuff {
+		min-height: 25vh;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.main-card .stuff {
+		text-align: center;
+	}
+}
+
+.stuff {
+	font-size: 1.15rem;
+}
+
+.stuff p {
+	color: #aaa;
+}
+
+.footer {
+	background-color: rgba(0, 0, 0, 0.075);
+	color: rgba(255, 255, 255, 0.6);
+	padding: 1.25rem 2rem 1.5rem 2rem;
+}
+
+.footer .link {
+	text-decoration: none;
+}
+
+.footer .link:hover {
+	text-decoration: underline;
 }
