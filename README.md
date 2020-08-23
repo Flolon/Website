@@ -1,2 +1,3 @@
-# flolon.github.io
-My website
+# My website
+
+flolon.cc
