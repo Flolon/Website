@@ -1,3 +1,3 @@
 # My website
 
-flolon.cc
+https://flolon.cc
